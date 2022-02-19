@@ -1,0 +1,38 @@
+{
+  "name": "billing",
+  "version": "1.0.0",
+  "description": "Product for pharmacy billing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-dev": "node app.js"
+  },
+  "keywords": [
+    "Product",
+    "Billing",
+    "Software"
+  ],
+  "author": "Syed Masood Sahib (SyedMas8d)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.14.0",
+    "validatorjs": "^3.22.1",
+    "winston": "^3.5.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
