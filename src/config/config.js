@@ -60,7 +60,7 @@ module.exports = {
     },
 
     OTP_EXPIRY: 5, //5 mins
-    JWT_SECRET: process.env.JWT_SECRET || 'Mmasood@7409',
+    JWT_SECRET: process.env.JWT_SECRET || 'VRK2D0rFsHGJosZAmMW5LlujgLUSWxZwAoTcgo2gSaRttYPuPmbRWOaBh0mtQWts',
     JWT_EXPIRY: process.env.JWT_EXPIRY || '7d',
     JWT_TOKEN_SOURCE: 'auth-token'
 }
